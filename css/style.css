@@ -1,0 +1,91 @@
+  html, body{
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    border: #4b1249 solid 1px;
+    background-color: rgb(2, 31, 55);
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: larger;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    height: 100%; 
+  }
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: #f0f0f0 dashed 1px; */
+    align-items: top;
+  }
+  #main-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #skill-box{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: hsl(206, 49%, 10%);
+  }
+  #about-me{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    padding: 2%;
+    font-size: 1.7rem;
+  }
+ .skill img{
+    width: 6em;
+    height: 6em;
+    object-fit: cover;
+  }
+  #skill-box{
+    justify-content: space-around;
+    align-items: column;
+  }
+
+  @font-face{
+    font-family: "CustomBACKTO1982";
+    src: url('fonts/BACKTO1982.TTF') format('truetype'); /* Path to your TTF font */
+    /* Optionally, include other formats for better compatibility */
+    src: url('fonts/BACKTO1982.woff') format('woff'), /* Web Open Font Format (WOFF) */
+         url('fonts/BACKTO1982.woff2') format('woff2'); /* Web Open Font Format 2 (WOFF2) */
+  }
+
+  @font-face {
+    font-family: "Wild West Pixel";
+    src: url("https://db.onlinewebfonts.com/t/fb544804cf464112e664856690f4728a.eot");
+    src: url("https://db.onlinewebfonts.com/t/fb544804cf464112e664856690f4728a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/fb544804cf464112e664856690f4728a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/fb544804cf464112e664856690f4728a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/fb544804cf464112e664856690f4728a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/fb544804cf464112e664856690f4728a.svg#Wild West Pixel")format("svg");
+}
+@font-face {
+  font-family: "ArcadeClassic";
+  src: url('fonts/ka1.ttf') format('truetype'); /* Path to your TTF font */
+  src: url('fonts/ka1.woff') format('woff'), /* Web Open Font Format (WOFF) */
+       url('fonts/ka1.woff2') format('woff2'); /* Web Open Font Format 2 (WOFF2) */
+}
+
+.me{
+  font-family: "Wild West Pixel";
+  font-size: 1.9em;
+  color: aliceblue
+}
+.me-sf{
+  font-family: "ArcadeClassic";
+  font-size: 1.4em;
+  color: aliceblue
+}
+#main-cover{
+  align-items: center;
+}
